@@ -21,4 +21,7 @@
     <string name="already_have_an_account">Already have an account?</string>
     <string name="log_in"><u>Log in</u></string>
     <string name="skip">Skip</string>
+    <string name="minty">MINTY</string>
+    <string name="sign_in">Sign in</string>
+    <string name="other_sign_in_options">Other sign in options</string>
 </resources>
