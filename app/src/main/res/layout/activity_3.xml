@@ -11,7 +11,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="fitXY"
-        android:src="@drawable/img_1" />
+        android:src="@drawable/img_1"
+        android:contentDescription="@string/background" />
 
     <LinearLayout
         android:gravity="center"
@@ -26,11 +27,13 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/img_2" />
+            android:src="@drawable/img_2"
+            android:contentDescription="@string/logo" />
         <TextView
             android:text="@string/create_account"
             android:textColor="@color/white"
             android:textSize="28sp"
+            android:layout_marginVertical="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
 
@@ -51,10 +54,11 @@
             app:startIconTint="#99EBEBF5"
             app:boxStrokeWidth="2dp"
             app:boxStrokeColor="#99EBEBF5"
-            app:boxCornerRadiusBottomEnd="12dp"
-            app:boxCornerRadiusTopStart="12dp"
-            app:boxCornerRadiusTopEnd="12dp"
-            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            android:layout_marginVertical="5dp"
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -72,17 +76,19 @@
             app:boxBackgroundColor="#33000000"
             app:hintAnimationEnabled="true"
             app:hintEnabled="true"
-            android:hint="@string/username"
+            android:hint="@string/email"
             app:hintTextColor="#99EBEBF5"
             android:textColorHint="#99EBEBF5"
             app:startIconDrawable="@drawable/email"
             app:startIconTint="#99EBEBF5"
             app:boxStrokeWidth="2dp"
             app:boxStrokeColor="#99EBEBF5"
-            app:boxCornerRadiusBottomEnd="12dp"
-            app:boxCornerRadiusTopStart="12dp"
-            app:boxCornerRadiusTopEnd="12dp"
-            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            android:layout_marginVertical="5dp"
+
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -100,18 +106,18 @@
             app:boxBackgroundColor="#33000000"
             app:hintAnimationEnabled="true"
             app:hintEnabled="true"
-            android:hint="@string/username"
+            android:hint="@string/password"
             app:hintTextColor="#99EBEBF5"
             android:textColorHint="#99EBEBF5"
             app:startIconDrawable="@drawable/passord"
-
             app:startIconTint="#99EBEBF5"
             app:boxStrokeWidth="2dp"
             app:boxStrokeColor="#99EBEBF5"
-            app:boxCornerRadiusBottomEnd="12dp"
-            app:boxCornerRadiusTopStart="12dp"
-            app:boxCornerRadiusTopEnd="12dp"
-            app:boxCornerRadiusBottomStart="12dp"
+            app:boxCornerRadiusBottomEnd="16dp"
+            app:boxCornerRadiusTopStart="16dp"
+            app:boxCornerRadiusTopEnd="16dp"
+            app:boxCornerRadiusBottomStart="16dp"
+            android:layout_marginVertical="5dp"
             >
 
             <com.google.android.material.textfield.TextInputEditText
@@ -121,6 +127,37 @@
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            app:backgroundTint="#BF5AF2"
+            android:text="@string/create_account"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            app:cornerRadius="12dp"
+            android:padding="12dp"
+            android:layout_marginVertical="12dp"
+            />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:text="@string/by_creating_an_account_or_signing_you_agree_to_our"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/terms_and_conditions"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
 
     </LinearLayout>
 

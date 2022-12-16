@@ -7,6 +7,18 @@
     <string name="sign_in_with_facebook">sign in with facebook</string>
     <string name="sign_in_with_phone">sign in with phone</string>
     <string name="forgot_your_password"><u>Forgot your password?</u></string>
-    <string name="create_account">Create account</string>
+    <string name="create_account">Create Account</string>
     <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="logo">logo</string>
+    <string name="background">background</string>
+    <string name="explore_together">Explore Together</string>
+    <string name="create_an_account_to_run_wild_through_our_curated_experiences">Create an account to run wild through our curated experiences.</string>
+    <string name="continue_with_apple">Continue with Apple</string>
+    <string name="continue_with_google">Continue with Google</string>
+    <string name="continue_with_email">Continue with Email</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in"><u>Log in</u></string>
+    <string name="skip">Skip</string>
 </resources>
