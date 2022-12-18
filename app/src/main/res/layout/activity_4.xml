@@ -105,9 +105,23 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent">
 
-
+        <com.google.android.material.imageview.ShapeableImageView
+            android:src="@drawable/google"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <com.google.android.material.imageview.ShapeableImageView
+            android:padding="4dp"
+            android:src="@drawable/facebook_image"
+            android:layout_width="50dp"
+            android:layout_margin="10dp"
+            android:layout_height="50dp"/>
+         <com.google.android.material.imageview.ShapeableImageView
+             android:src="@drawable/apple"
+             android:layout_width="50dp"
+             android:layout_margin="10dp"
+             android:layout_height="50dp"/>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

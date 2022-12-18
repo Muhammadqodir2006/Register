@@ -60,7 +60,7 @@
             />
         <com.google.android.material.button.MaterialButton
             style="@style/enterButton"
-            app:icon="@drawable/facebook"
+            app:icon="@drawable/facebook_image"
             android:text="@string/sign_in_with_facebook"
             />
         <com.google.android.material.button.MaterialButton
