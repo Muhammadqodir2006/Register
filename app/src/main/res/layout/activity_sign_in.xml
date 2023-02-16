@@ -34,10 +34,11 @@
             app:hintTextColor="#99EBEBF5">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/username1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
-                android:hint="@string/email"
+                android:hint="@string/email2"
                 android:inputType="textEmailAddress"
                 android:textColor="#99EBEBF5"
                 android:textColorHint="#99EBEBF5" />
@@ -53,6 +54,7 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/password1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="#00FFFFFF"
@@ -73,6 +75,7 @@
             android:textSize="18sp" />
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/signIn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="20dp"
@@ -81,6 +84,27 @@
             android:paddingVertical="12dp"
             android:text="@string/sign_in"
             android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/do_not_have_an_account"
+            android:textAlignment="center"
+            android:textColor="#99EBEBF5"
+            android:textSize="18sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/signUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#31E11E"
+            android:paddingVertical="12dp"
+            android:text="@string/sign_up"
+            android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
 

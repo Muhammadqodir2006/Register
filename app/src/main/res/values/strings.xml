@@ -10,7 +10,8 @@
     <string name="create_account">Create Account</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
-    <string name="email">Email</string>
+    <string name="email">email</string>
+    <string name="email2">Username or email</string>
     <string name="logo">logo</string>
     <string name="background">background</string>
     <string name="explore_together">Explore Together</string>
@@ -24,4 +25,8 @@
     <string name="minty">MINTY</string>
     <string name="sign_in">Sign in</string>
     <string name="other_sign_in_options">Other sign in options</string>
+    <string name="do_not_have_an_account"><u>Do not have an account?</u></string>
+    <string name="sign_up">Sign up</string>
+    <string name="you_are_logged_in">You are logged in</string>
+    <string name="hello">Hello</string>
 </resources>
