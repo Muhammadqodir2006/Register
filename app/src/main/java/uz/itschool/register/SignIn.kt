@@ -43,7 +43,13 @@ class SignIn : AppCompatActivity() {
                     id = i
                 }
             }
+
             if (id == -1){
+                Toast.makeText(applicationContext, "Incorrect username or email", Toast.LENGTH_LONG).show()
+                password1.text?.clear()
+                return@setOnClickListener
+            }
+            if (id  > 0 && usersList[id].password != myPassword){
                 Toast.makeText(applicationContext, "Incorrect password", Toast.LENGTH_LONG).show()
                 password1.text?.clear()
                 return@setOnClickListener
